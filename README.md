@@ -1,29 +1,13 @@
-# vue-project-shopee
+# 食品電商平臺
 
-This template should help get you started developing with Vue 3 in Vite.
+這個是我的第一個功能算完整的專案，專案框架為vue，而選擇電商平臺的主要原因是因爲這是轉職前端最基礎的門檻，而這個專案主要搭配pinia做資料管理，firestore auth做登入登出等驗證，而用戶的購物車資料則儲存在local storage。
+## Features
+- 登入登出頁面
+- 輪播圖
+- sidebar menu
+- rwd響應式界面
+- 動態頁面
+- 新增/刪減購物車
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
